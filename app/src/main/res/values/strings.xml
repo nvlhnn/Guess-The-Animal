@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">UTS208</string>
+    <string name="desc">
+        Aplikasi ini merupakan aplikasi edukasi quiz sederhana yang berfungsi untuk melatih pengetahuan anak terkait hewan hewan yang ada di dunia.
+    </string>
+    <string name="flow">Alur Penggunaan Aplikasi
+        \n
+        1. User menekan tombol "Start"
+        \n
+        \n
+        2. User memnjawab soal-soal yang sudah disiapkan sistem.
+        \n
+        \n
+        3. Sistem akan menghitung berapa kali user salah dalam menjawab soal.
+        \n
+        \n
+        4. Sistem akan menampilkan hasil quiz di akhir quiz.
+        \n
+        \n
+        5. Pada akhir quiz, user dapat menekan tombol ""CARI KEBUN BINATANG DI SEKITARMU"" untuk berpindah ke aplikasi peta pada smartphone dan dapat melihat lokasi-lokasi kebun binatang yang ada di sekitar user.
+        \n</string>
+    <string name="desc_jerapah">
+        Jerapah atau zarafah (nama ilmiah: Giraffa camelopardalis) adalah mamalia berkuku genap endemik Afrika dan merupakan spesies hewan tertinggi yang hidup di darat. Jerapah jantan dapat mencapai tinggi 4,8 sampai 5,5 meter dan memiliki berat yang dapat mencapai 1.360 kilogram. Jerapah betina biasanya sedikit lebih pendek dan lebih ringan.
+        \n
+        \n
+        Jerapah berkerabat dengan rusa dan sapi tetapi dari suku yang berbeda, yaitu Giraffidae yang mencakup jerapah sendiri dan kerabat terdekatnya, okapi. Habitat aslinya mencakup area dari Chad sampai dengan Afrika Selatan
+
+    </string>
+    <string name="desc_gajah">
+        Gajah adalah mamalia besar dari famili Elephantidae dan ordo Proboscidea. Secara tradisional, terdapat dua spesies yang diakui, yaitu gajah afrika (Loxodonta africana) dan gajah asia (Elephas maximus), walaupun beberapa bukti menunjukkan bahwa gajah semak afrika dan gajah hutan afrika merupakan spesies yang berbeda (L. africana dan L. cyclotis). Gajah tersebar di seluruh Afrika sub-Sahara, Asia Selatan, dan Asia Tenggara.
+        \n
+        \n
+        Elephantidae adalah satu-satunya famili dari ordo Proboscidea yang masih ada; famili lain yang kini sudah punah termasuk mamut dan mastodon. Gajah afrika jantan merupakan hewan darat terbesar dengan tinggi hingga 4 m dan massa yang juga dapat mencapai 7.000 kg.
+    </string>
+    <string name="desc_kambing">
+        Kambing ternak (Capra aegagrus hircus) merupakan salah satu subspesies kambing yang dipelihara atau dijinakkan dari kambing liar Asia Barat Daya dan Eropa Timur. Kambing merupakan anggota dari keluarga Bovidae dan bersaudara dengan dengan biri-biri karena keduanya tergolong dalam sub famili Caprinae.         \n
+        \n
+        Terdapat lebih 300 jenis kambing yang berbeda-beda.[1] Kambing adalah salah satu di antara spesies yang paling lama di ternakkan, yaitu untuk susu, daging, bulu, dan kulit di seluruh dunia.[2] Pada tahun 2011, populasi kambing yang hidup di seluruh dunia mencapai 924 juta menurut Organisasi Pangan dan Pertanian Perserikatan Bangsa-Bangsa.    </string>
+</resources>
