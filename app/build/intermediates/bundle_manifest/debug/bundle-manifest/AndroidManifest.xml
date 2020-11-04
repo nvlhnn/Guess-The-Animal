@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uts208"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.uts208.Answ3"
+            android:label="Jawaban"
+            android:parentActivityName="com.example.uts208.Quest3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest3" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Answ2"
+            android:label="Jawaban"
+            android:parentActivityName="com.example.uts208.Quest2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest2" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Answ1"
+            android:label="Jawaban"
+            android:parentActivityName="com.example.uts208.Quest1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest1" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Summary"
+            android:label="Summary"
+            android:parentActivityName="com.example.uts208.Quest3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest3" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Quest3"
+            android:label="Level 3"
+            android:parentActivityName="com.example.uts208.Quest2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest2" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Quest2"
+            android:label="Level 2"
+            android:parentActivityName="com.example.uts208.Quest1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.Quest1" />
+        </activity>
+        <activity
+            android:name="com.example.uts208.Quest1"
+            android:label="Level 1"
+            android:parentActivityName="com.example.uts208.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.uts208.MainActivity" />
+        </activity>
+        <activity android:name="com.example.uts208.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

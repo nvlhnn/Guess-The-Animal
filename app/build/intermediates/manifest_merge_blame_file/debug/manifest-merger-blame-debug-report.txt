@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uts208"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:5:5-76:19
+12        android:allowBackup="true"
+12-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:12:9-20:20
+21            android:name="com.example.uts208.Answ3"
+21-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:13:13-34
+22            android:label="Jawaban"
+22-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:14:13-36
+23            android:parentActivityName="com.example.uts208.Quest3" >
+23-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:15:13-49
+24            <meta-data
+24-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+26                android:value="com.example.uts208.Quest3" />
+26-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+27        </activity>
+28        <activity
+28-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:21:9-28:20
+29            android:name="com.example.uts208.Answ2"
+29-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:22:13-34
+30            android:label="Jawaban"
+30-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:23:13-36
+31            android:parentActivityName="com.example.uts208.Quest2" >
+31-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:24:13-49
+32            <meta-data
+32-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+33                android:name="android.support.PARENT_ACTIVITY"
+33-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+34                android:value="com.example.uts208.Quest2" />
+34-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+35        </activity>
+36        <activity
+36-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:29:9-36:20
+37            android:name="com.example.uts208.Answ1"
+37-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:30:13-34
+38            android:label="Jawaban"
+38-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:31:13-36
+39            android:parentActivityName="com.example.uts208.Quest1" >
+39-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:32:13-49
+40            <meta-data
+40-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+42                android:value="com.example.uts208.Quest1" />
+42-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+43        </activity>
+44        <activity
+44-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:37:9-44:20
+45            android:name="com.example.uts208.Summary"
+45-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:38:13-36
+46            android:label="Summary"
+46-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:39:13-36
+47            android:parentActivityName="com.example.uts208.Quest3" >
+47-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:40:13-49
+48            <meta-data
+48-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+49                android:name="android.support.PARENT_ACTIVITY"
+49-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+50                android:value="com.example.uts208.Quest3" />
+50-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+51        </activity>
+52        <activity
+52-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:45:9-52:20
+53            android:name="com.example.uts208.Quest3"
+53-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:46:13-35
+54            android:label="Level 3"
+54-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:47:13-36
+55            android:parentActivityName="com.example.uts208.Quest2" >
+55-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:48:13-49
+56            <meta-data
+56-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+57                android:name="android.support.PARENT_ACTIVITY"
+57-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+58                android:value="com.example.uts208.Quest2" />
+58-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+59        </activity>
+60        <activity
+60-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:53:9-60:20
+61            android:name="com.example.uts208.Quest2"
+61-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:54:13-35
+62            android:label="Level 2"
+62-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:55:13-36
+63            android:parentActivityName="com.example.uts208.Quest1" >
+63-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:56:13-49
+64            <meta-data
+64-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+65                android:name="android.support.PARENT_ACTIVITY"
+65-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+66                android:value="com.example.uts208.Quest1" />
+66-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+67        </activity>
+68        <activity
+68-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:61:9-68:20
+69            android:name="com.example.uts208.Quest1"
+69-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:62:13-35
+70            android:label="Level 1"
+70-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:63:13-36
+71            android:parentActivityName="com.example.uts208.MainActivity" >
+71-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:64:13-55
+72            <meta-data
+72-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:16:13-18:61
+73                android:name="android.support.PARENT_ACTIVITY"
+73-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:17:17-63
+74                android:value="com.example.uts208.MainActivity" />
+74-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:18:17-58
+75        </activity>
+76        <activity android:name="com.example.uts208.MainActivity" >
+76-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:69:9-75:20
+76-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:69:19-47
+77            <intent-filter>
+77-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:70:13-74:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:71:17-69
+78-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:71:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:73:17-77
+80-->E:\projek\android\NaufalHananOktavanusa_18523208\UTS208\app\src\main\AndroidManifest.xml:73:27-74
+81            </intent-filter>
+82        </activity>
+83    </application>
+84
+85</manifest>
